@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Overwatch";
+    src: url("http://us.battle.net/forums/static/fonts/bignoodletoo/bignoodletoo.woff") format('woff');
+}
+
+body {
+    margin: 0;
+    border: 0;
+    background: url("Images/hanamura.png");
+    background-size: cover;
+}
+
+* {
+    font-family: "Overwatch";
+    color: white;
+}
+
+#white {
+    color: white;
+    text-shadow: 1px "blur";
+    text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black
+}
+
+.nav {
+    background-color: #333;
+    overflow: hidden;
+
+}
+
+.nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+
+.nav a:hover {
+    background-color: #FAA02E;
+    color: black;
+}
+
+#logo {
+    padding-left: 10px;
+}
